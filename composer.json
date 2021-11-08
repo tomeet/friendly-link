@@ -15,7 +15,8 @@
   "require": {
     "tucker-eric/eloquentfilter": "^3.0",
     "jiannei/laravel-response": "^4.0",
-    "jiannei/laravel-enum": "^3.0"
+    "jiannei/laravel-enum": "^3.0",
+    "tomeet/uploader": "^1.0"
   },
   "extra": {
     "laravel": {
