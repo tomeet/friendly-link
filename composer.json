@@ -1,0 +1,27 @@
+{
+  "name": "tomeet/friendly-link",
+  "description": "friendly link",
+  "autoload": {
+    "psr-4": {
+      "Tomeet\\FriendlyLink\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tomeet",
+      "email": "tomeet@sohu.com"
+    }
+  ],
+  "require": {
+    "tucker-eric/eloquentfilter": "^3.0",
+    "jiannei/laravel-response": "^4.0",
+    "jiannei/laravel-enum": "^3.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tomeet\\FriendlyLink\\FriendlyLinkServiceProvider"
+      ]
+    }
+  }
+}
